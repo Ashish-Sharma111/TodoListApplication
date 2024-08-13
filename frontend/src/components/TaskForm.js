@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import taskService from '../services/taskService';
-import './TaskForm.css';
+//import './TaskForm.css';
+import './newtask.css';
 
 const TaskForm = ({ task, onSave, onCancel }) => {
   const [formData, setFormData] = useState({
